@@ -1,0 +1,216 @@
+*{
+  margin: 0;
+  font-family: Poppins;
+  padding: 0;
+  font-size: 20px;
+  color: white;
+}
+body{
+   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/policeback.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+  background-attachment: fixed;
+ }
+
+.title h1{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   color: white;
+   font-size: 70px;
+   text-align: center;
+ }
+
+.nav-header-logo{
+  float: left;
+  width: 40px;
+  height: auto;
+  margin-top: 110px;
+}
+
+.nav-header-main ul{
+  margin-left: 10px;
+  float: left;
+  list-style-type: none;
+}
+.nav-header-main ul li{
+  display: inline-block;
+  margin-top: 110px;
+}
+.nav-header-main ul li a{
+  text-decoration: none;
+  color: white;
+  border: 1px solid transparent;
+  padding: 5px  20px;
+  transition: 0.3s ease;
+}
+ul li a:hover{
+  background-color: white;
+  color: black;
+  padding: 2px 10px 2px 10px;
+}
+.main{
+  max-width: 1750px;
+  margin: auto;
+}
+.loginform{
+  float: right;
+}
+.loginform form{
+  margin-top: 110px;
+}
+p{
+  text-align: center;
+}
+a{
+  color: white;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+a:hover{
+  padding: 2px 10px 2px 10px;
+}
+textarea{
+  /* border-radius: 3px; */
+  color: black;
+}
+table{
+  position: absolute;
+  top: 20%;
+  text-align: center;
+}
+button{
+  border: transparent;
+  transition: 0.3s ease;
+  padding: 2px 10px 2px 10px;
+  background-color: transparent;
+  color: white;
+}
+button:hover{
+  background-color: white;
+  color: black;
+  padding: 5px 20px 5px 20px;
+}
+input{
+  margin: 0px,10px,10px,10px;
+  transition: 0.3s ease;
+  border-radius: 4px;
+  border: none;
+  padding: 5px;
+  color: black;
+}
+input:hover{
+  padding-right: 30px;
+}
+/*------------------------------------------------------------SIGNUP.PHP-------------------------------------------------------------------  */
+
+.signupform fieldset {
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3));
+  border-radius: 15px;
+  width: 500px;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.signupform h1{
+  font-size: 30px;
+  text-align: center;
+}
+.signupform fieldset input{
+  width: 370px;
+  color: black;
+}
+select option{
+  color: black;
+}
+/*-------------------------------------------------------HEADER.PHP------------------------------------------------------------------------------*/
+
+.headerPHP ul li{
+  display: inline-block;
+  margin-top: 110px;
+}
+.headerlogo img{
+  float: left;
+  width: 40px;
+  height: auto;
+  margin-top: 110px;
+}
+.headerPHP ul li a{
+  text-decoration: none;
+  color: white;
+  border: 1px solid transparent;
+  padding: 5px  20px;
+  transition: 0.3s ease;
+}
+ .headerPHP ul li a:hover{
+  background-color: white;
+  color: black;
+  padding: 2px 10px 2px 10px;
+}
+
+.headerPHP{
+  max-width: 1750px;
+  margin: auto;
+}
+.headerPHP form button{
+  float: right;
+  margin-top: -30px;
+}
+/*----------------------------------------------------------PRISONERSDETAILS.PHP-------------------------------------------------------------------------- */
+.pridetails{
+  margin-top: 110px;
+}
+.priform{
+  border: none;
+}
+.pridetails .priImg{
+  margin-right:100px;
+  float: right;
+}
+.pridetails .priform p{
+  text-align: left;
+  margin-left: 100px;
+}
+.toptitle{
+  text-align: center;
+  font-size: 30px;
+}
+/*-------------------------------------------------------------------- VICTIMDETAILS.PHP-------------------------------------------------------------------- */
+.victdetails{
+  margin-top: 110px;
+}
+.victfield{
+  border: none;
+}
+.victdetails .victImg{
+  margin-right:100px;
+  float: right;
+}
+.victdetails .victfield p{
+  text-align: left;
+  margin-left: 100px;
+}
+.victtoptitle{
+  text-align: center;
+  font-size: 30px;
+}
+.victdetails .victfield .victform button{
+  margin-left: 910px;
+}
